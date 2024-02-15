@@ -4,16 +4,6 @@
 
 The `server/` directory contains all of your backend code.
 
-`app.py` is your Flask application. You'll want to use Flask to build a simple
-API backend like we have in previous modules. You should use Flask-RESTful for
-your routes. You should be familiar with `models.py` and `seed.py` by now, but
-remember that you will need to use Flask-SQLAlchemy, Flask-Migrate, and
-SQLAlchemy-Serializer instead of SQLAlchemy and Alembic in your models.
-
-The project contains a default `Pipfile` with some basic dependencies. You may
-adapt the `Pipfile` if there are additional dependencies you want to add for
-your project.
-
 To download the dependencies for the backend server, run:
 
 ```console
